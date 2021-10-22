@@ -3,7 +3,7 @@ import { Button } from '@mui/material';
 
 function IntroButtons() {
    return (
-      <div className={'d-flex'}>
+      <div className={'d-flex justify-content-center'}>
          <div className={'mr-2'}>
             <Button
                className={'text-white'}
