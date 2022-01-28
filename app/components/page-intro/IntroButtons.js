@@ -5,11 +5,12 @@ import { makeStyles } from '@mui/styles';
 const jss = makeStyles((theme) => ({
    root: {
       display: 'flex',
+      width: '100%',
       [theme.breakpoints.down('md')]: {
          justifyContent: 'center',
-         alignItems: 'center'
-      }
-   }
+         alignItems: 'center',
+      },
+   },
 }));
 
 function IntroButtons() {
