@@ -7,6 +7,7 @@ const jss = makeStyles((theme) => ({
       display: 'flex',
       width: '100%',
       [theme.breakpoints.down('md')]: {
+         backgroundColor: 'red',
          justifyContent: 'center',
          alignItems: 'center',
       },
